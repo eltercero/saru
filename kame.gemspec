@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Victor"]
   spec.email         = ["victor.martin84@gmail.com"]
 
-  spec.summary       = %q{Wanikani API Wrapper.}
-  spec.description   = %q{Wanikani API Wrapper for Ruby}
+  spec.summary       = %q{Wanikani items API Wrapper.}
+  spec.description   = %q{Wanikani API Wrapper for the user's items (radicals, kanji and vocabulary)}
   spec.homepage      = "https://github.com/eltercero/kame"
   spec.license       = "MIT"
 
