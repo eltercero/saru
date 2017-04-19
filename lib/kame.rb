@@ -1,5 +1,7 @@
+require "kame/setup"
 require "kame/version"
 
 module Kame
-  # Your code goes here...
+  extend Setup
+
 end
