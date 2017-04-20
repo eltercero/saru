@@ -3,9 +3,9 @@ require 'json'
 
 describe Kame::Connection::Vocabulary do
 
-  let(:level) { 7 }
+  let(:levels) { [7] }
 
-  subject { described_class.new level }
+  subject { described_class.new levels }
 
   let(:api_key) { 'random_api_key' }
   let(:connector) { double 'connector' }
@@ -28,8 +28,8 @@ describe Kame::Connection::Vocabulary do
 
     let(:endpoint_base) { Kame::Connection::Base::ENDPOINT_BASE }
 
-    context 'level provided' do
-      let(:expected_path) { "#{endpoint_base}/#{api_key}/vocabulary/#{level}" }
+    context 'levels provided' do
+      let(:expected_path) { "#{endpoint_base}/#{api_key}/vocabulary/#{levels.first}" }
 
       it 'makes que right request' do
         expect(connector).to receive(:get).
@@ -39,8 +39,8 @@ describe Kame::Connection::Vocabulary do
       end
     end
 
-    context 'no level provided' do
-      let(:level) { nil }
+    context 'no levels provided' do
+      let(:levels) { nil }
       let(:expected_path) { "#{endpoint_base}/#{api_key}/vocabulary/" }
 
       it 'makes que right request' do

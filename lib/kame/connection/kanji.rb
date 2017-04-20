@@ -2,16 +2,10 @@ module Kame
   module Connection
     class Kanji < Base
 
-      attr_reader :level
-
-      def initialize level
-        @level = level
-      end
-
     private
 
       def path
-        "#{base_path}/kanji/#{level}"
+        "#{base_path}/kanji/#{levels_request}"
       end
 
     end

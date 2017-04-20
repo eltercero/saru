@@ -7,6 +7,12 @@ module Kame
 
       WanikaniConnectionError = Class.new(StandardError)
 
+      attr_reader :levels
+
+      def initialize levels
+        @levels = levels
+      end
+
       def call
         response.status == 200 ? content : raise_error
       end
@@ -31,6 +37,10 @@ module Kame
 
       def base_path
         "#{ENDPOINT_BASE}/#{Kame::Setup.api_key}"
+      end
+
+      def levels_request
+        Array(levels).join(',')
       end
 
       def raise_error
