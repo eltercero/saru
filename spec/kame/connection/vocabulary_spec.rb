@@ -26,7 +26,7 @@ describe Kame::Connection::Vocabulary do
     let(:body)     { {"json" => "body"}.to_json }
     let(:response) { double 'response', :status => status, :body => body }
 
-    let(:endpoint_base) { Kame::Connection::Abstract::Base::ENDPOINT_BASE }
+    let(:endpoint_base) { Kame::Connection::Base::ENDPOINT_BASE }
 
     context 'level provided' do
       let(:expected_path) { "#{endpoint_base}/#{api_key}/vocabulary/#{level}" }

@@ -1,6 +1,6 @@
 module Kame
   module Connection
-    class Radical < Abstract::Base
+    class Radical < Base
 
       attr_reader :level
 

@@ -1,6 +1,6 @@
 module Kame
   module Connection
-    class Vocabulary < Abstract::Base
+    class Vocabulary < Base
 
       attr_reader :level
 

@@ -24,7 +24,7 @@ describe Kame::Connection::User do
     let(:body)     { {"json" => "body"}.to_json }
     let(:response) { double 'response', :status => status, :body => body }
 
-    let(:endpoint_base) { Kame::Connection::Abstract::Base::ENDPOINT_BASE }
+    let(:endpoint_base) { Kame::Connection::Base::ENDPOINT_BASE }
 
     let(:expected_path) { "#{endpoint_base}/#{api_key}/user-information" }
 

@@ -1,6 +1,6 @@
 module Kame
   module Connection
-    class Kanji < Abstract::Base
+    class Kanji < Base
 
       attr_reader :level
 

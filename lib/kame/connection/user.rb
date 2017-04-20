@@ -1,6 +1,6 @@
 module Kame
   module Connection
-    class User < Abstract::Base
+    class User < Base
 
     private
 
