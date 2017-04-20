@@ -18,5 +18,13 @@ module Kame
       send important_reading
     end
 
+    def kunyomis
+      kunyomi.to_s.split ','
+    end
+
+    def onyomis
+      onyomi.to_s.split ','
+    end
+
   end
 end
