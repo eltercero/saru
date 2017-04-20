@@ -6,20 +6,16 @@ require 'kame/connection/vocabulary'
 module Kame
   module Connection
 
-    def user level=nil
-      User.new(level).call
+    def radical levels=nil
+      Radical.new(levels).call
     end
 
-    def radical level=nil
-      Radical.new(level).call
+    def kanji levels=nil
+      Kanji.new(levels).call
     end
 
-    def kanji level=nil
-      Kanji.new(level).call
-    end
-
-    def vocabulary level=nil
-      Vocabulary.new(level).call
+    def vocabulary levels=nil
+      Vocabulary.new(levels).call
     end
 
   end
