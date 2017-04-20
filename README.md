@@ -1,16 +1,16 @@
-# Kame (亀)
+# Saru (猿)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/kame`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Saru (猿) is a wrapper for the Wanikani API, but it is focused on the SRS system, including a lot of searching methods not available in the API. If you're interested in a complete wrapper, check out [dennmart's great gem](https://github.com/dennmart/wanikani-gem)
 
 ## Installation
 
-Add this line to your application's Gemfile:
+To get the latest stable, add this to your Gemfile:
 
-```ruby
-gem 'kame'
-```
+    gem 'saru'
+
+To get the latest code, add this:
+
+    gem 'saru', git: https://github.com/eltercero/uatu
 
 And then execute:
 
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install kame
+    $ gem install saru
 
 ## Usage
 
@@ -32,7 +32,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/eltercero/kame.
+Bug reports and pull requests are welcome on GitHub at https://github.com/eltercero/saru.
 
 
 ## License
