@@ -50,5 +50,27 @@ describe Kame::Connection::Radical do
         expect(subject.call).to eq "json" => "body"
       end
     end
+
+    context 'no api key' do
+      let(:api_key) { nil }
+
+      it 'raises an error' do
+        expect{subject.call}.to raise_error(ArgumentError, 'Missing API key')
+      end
+    end
+
+    context 'status different to 200' do
+      let(:expected_path) { "#{endpoint_base}/#{api_key}/radicals/#{level}" }
+
+      let(:status) { 500 }
+      let(:connection_error) { described_class::WanikaniConnectionError }
+
+      it 'raises an error' do
+        expect(connector).to receive(:get).
+          with(expected_path).and_return response
+
+        expect{subject.call}.to raise_error connection_error
+      end
+    end
   end
 end
