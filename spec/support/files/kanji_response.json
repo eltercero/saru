@@ -1,0 +1,75 @@
+{
+  "user_information": {
+    "username": "eltercero",
+    "gravatar": "73e6ae598b7a61be53afdc77af8df37d",
+    "level": 27,
+    "title": "Turtles",
+    "about": "",
+    "website": null,
+    "twitter": null,
+    "topics_count": 0,
+    "posts_count": 13,
+    "creation_date": 1456910061,
+    "vacation_date": null
+  },
+  "requested_information": [
+    {
+      "character": "二",
+      "meaning": "two",
+      "onyomi": "に",
+      "kunyomi": "ふた",
+      "important_reading": "onyomi",
+      "level": 1,
+      "nanori": null,
+      "user_specific": {
+        "unlocked_date": 1457072478,
+        "user_synonyms": null,
+        "meaning_note": null,
+        "reading_note": null,
+        "srs": "burned",
+        "srs_numeric": 9,
+        "available_date": 1472052600,
+        "burned": true,
+        "burned_date": 1472057541,
+        "reactivated_date": 1471971141,
+        "meaning_correct": 8,
+        "meaning_incorrect": 0,
+        "meaning_max_streak": 8,
+        "meaning_current_streak": 8,
+        "reading_correct": 8,
+        "reading_incorrect": 0,
+        "reading_max_streak": 8,
+        "reading_current_streak": 8
+      }
+    },
+    {
+      "character": "三",
+      "meaning": "three",
+      "onyomi": "さん",
+      "kunyomi": "み",
+      "important_reading": "onyomi",
+      "level": 1,
+      "nanori": null,
+      "user_specific": {
+        "unlocked_date": 1457072540,
+        "user_synonyms": null,
+        "meaning_note": null,
+        "reading_note": null,
+        "srs": "burned",
+        "srs_numeric": 9,
+        "available_date": 1472052600,
+        "burned": true,
+        "burned_date": 1472057152,
+        "reactivated_date": 1471970752,
+        "meaning_correct": 8,
+        "meaning_incorrect": 0,
+        "meaning_max_streak": 8,
+        "meaning_current_streak": 8,
+        "reading_correct": 8,
+        "reading_incorrect": 0,
+        "reading_max_streak": 8,
+        "reading_current_streak": 8
+      }
+    }
+  ]
+}
