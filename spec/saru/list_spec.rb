@@ -1,8 +1,6 @@
 require 'spec_helper'
 require 'json'
 
-require 'pry'
-
 describe Saru::List do
 
   let(:kanjis_json) do
@@ -12,7 +10,6 @@ describe Saru::List do
   let(:kanjis) do
     request_items = kanjis_json['requested_information']
     request_items.map do |item|
-      # binding.pry
       flattened = if item['user_specific']
         item.merge(item['user_specific'])
             .delete_if{|key, _value| key == 'user_specific' }
