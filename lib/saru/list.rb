@@ -3,6 +3,7 @@ require 'saru/list/unlocked_date'
 require 'saru/list/incorrect'
 require 'saru/list/srs'
 require 'saru/list/kanji_related'
+require 'saru/anki'
 
 module Saru
   class List
@@ -19,8 +20,21 @@ module Saru
       @items = items
     end
 
+    def to_anki
+      anki.deck
+    end
+
+    def export_to_anki
+      anki.generate
+    end
+
     def_delegator :@items,
                   :size
 
+  private
+
+    def anki
+      @anki ||= Saru::Anki.new(items)
+    end
   end
 end

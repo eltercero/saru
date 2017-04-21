@@ -117,6 +117,16 @@ require 'saru'
     ...
 ```
 
+### Anki export
+
+```ruby
+# You can export any search to an anki deck, in case you need extra SRS
+
+> Saru.kanji(1..26).srs_is_not_burned.total_incorrect_larger_than(10).export_to_anki
+Anki file generated in saru_deck_1704211620.txt
+=> nil
+```
+
 ### Available search methods
 
 #### SRS

@@ -23,6 +23,32 @@ describe Saru::List do
 
   subject { described_class.new kanjis }
 
+  describe '#to_anki' do
+    let(:anki) { double 'anki' }
+
+    it 'relies in Anki class' do
+      expect(Saru::Anki).to receive(:new).
+        with(subject.items).and_return anki
+
+      expect(anki).to receive(:deck)
+
+      subject.to_anki
+    end
+  end
+
+  describe '#export_to_anki' do
+    let(:anki) { double 'anki' }
+
+    it 'relies in Anki class' do
+      expect(Saru::Anki).to receive(:new).
+        with(subject.items).and_return anki
+
+      expect(anki).to receive(:generate)
+
+      subject.export_to_anki
+    end
+  end
+
   describe 'all methods' do
     it 'returns the expected results' do
       # #size
