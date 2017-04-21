@@ -38,8 +38,8 @@ module Saru
     end
 
     def flatten item
-      item.merge(item['user_specific'])
-          .delete_if{|key, _value| key == 'user_specific' }
+      item.merge!(item['user_specific']) if item['user_specific']
+      item.delete_if{|key, _value| key == 'user_specific' }
     end
 
   end
