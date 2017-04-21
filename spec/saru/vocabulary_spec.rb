@@ -3,9 +3,9 @@ require 'json'
 
 describe Saru::Vocabulary do
 
-  let(:character) { '二' }
-  let(:kana) { 'に' }
-  let(:meaning) { 'two' }
+  let(:character) { '非難する' }
+  let(:kana) { 'ひなんする' }
+  let(:meaning) { 'to criticize, to criticise' }
 
   let(:attributes) do
     {
@@ -29,9 +29,12 @@ describe Saru::Vocabulary do
     end
   end
 
-  describe '#meaning' do
+  describe '#meaning, #meanings' do
     it 'returns the value' do
       expect(subject.meaning).to eq meaning
+      meanings = subject.meanings
+      expect(meanings.size).to eq 2
+      expect(meanings).to eq ['to criticize', 'to criticise']
     end
   end
 end

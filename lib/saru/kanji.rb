@@ -19,11 +19,15 @@ module Saru
     end
 
     def kunyomis
-      kunyomi.to_s.split ','
+      kunyomi.to_s.split(',').map(&:strip)
     end
 
     def onyomis
-      onyomi.to_s.split ','
+      onyomi.to_s.split(',').map(&:strip)
+    end
+
+    def meanings
+      meaning.to_s.split(',').map(&:strip)
     end
 
   end

@@ -12,5 +12,10 @@ module Saru
                 :meaning_max_streak, :meaning_current_streak,
                 :reading_correct, :reading_incorrect,
                 :reading_max_streak, :reading_current_streak
+
+    def meanings
+      meaning.to_s.split(',').map(&:strip)
+    end
+
   end
 end
