@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/eltercero/saru.png)](https://travis-ci.org/eltercero/saru)
+
 # Saru (猿)
 
 Saru (猿) is a wrapper for the Wanikani API, but it is focused on the SRS system, including a lot of searching methods not available in the API. If you're looking for a complete Wanikani API wrapper, check out [dennmart's great gem](https://github.com/dennmart/wanikani-gem).
