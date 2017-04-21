@@ -45,9 +45,11 @@ module Saru
 
       def total_incorrect_smaller_than number
         selected = items.select do |item|
-          total_incorrect = item.meaning_incorrect.to_i + item.reading_incorrect.to_i
-          total_incorrect < number
+          !item.meaning_incorrect.nil? &&
+          !item.reading_incorrect.nil? &&
+          (item.meaning_incorrect + item.reading_incorrect) < number
         end
+
         Saru::List.new selected
       end
 

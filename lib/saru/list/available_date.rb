@@ -6,15 +6,26 @@ module Saru
       include Saru::Support::TimeConverter
 
       def available_after date
-        Saru::List.new items.select{|item| item.available_date > to_unix(date) }
+        selected = items.select do |item|
+          !item.available_date.nil? &&
+          item.available_date > to_unix(date)
+        end
+
+        Saru::List.new selected
       end
 
       def available_before date
-        Saru::List.new items.select{|item| item.available_date < to_unix(date) }
+        selected = items.select do |item|
+          !item.available_date.nil? &&
+          item.available_date < to_unix(date)
+        end
+
+        Saru::List.new selected
       end
 
       def avaliable_between start_date, end_date
         selected = items.select do |item|
+          !item.unlocked_date.nil? &&
           item.available_date > to_unix(start_date) &&
           item.available_date < to_unix(end_date)
         end

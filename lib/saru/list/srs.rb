@@ -3,11 +3,21 @@ module Saru
     module Srs
 
       def srs_numeric_larger_than number
-        Saru::List.new items.select{|item| item.srs_numeric > number }
+        selected = items.select do |item|
+          !item.srs_numeric.nil? &&
+          item.srs_numeric > number
+        end
+
+        Saru::List.new selected
       end
 
       def srs_numeric_smaller_than number
-        Saru::List.new items.select{|item| item.srs_numeric < number }
+        selected = items.select do |item|
+          !item.srs_numeric.nil? &&
+          item.srs_numeric < number
+        end
+
+        Saru::List.new selected
       end
 
       def srs_in states

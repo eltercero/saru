@@ -100,7 +100,6 @@ require 'saru'
     @meaning="cape, small peninsula"
     ...
 
-
 # You can chain methods too.
 
 > Saru.kanji(1..26).srs_is_not_burned.total_incorrect_larger_than(10)

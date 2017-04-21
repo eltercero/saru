@@ -1,5 +1,17 @@
 {
-  "user_information": {},
+  "user_information": {
+    "username": "eltercero",
+    "gravatar": "73e6ae598b7a61be53afdc77af8df37d",
+    "level": 28,
+    "title": "Turtles",
+    "about": "",
+    "website": null,
+    "twitter": null,
+    "topics_count": 0,
+    "posts_count": 13,
+    "creation_date": 1456910061,
+    "vacation_date": null
+  },
   "requested_information": [
     {
       "character": "寺",
@@ -121,7 +133,7 @@
       "character": "集",
       "meaning": "collect, gather",
       "onyomi": "しゅう",
-      "kunyomi": "あつ.まる",
+      "kunyomi": "あつ",
       "important_reading": "onyomi",
       "level": 10,
       "nanori": null,
@@ -143,6 +155,35 @@
         "reading_correct": 11,
         "reading_incorrect": 1,
         "reading_max_streak": 6,
+        "reading_current_streak": 5
+      }
+    },
+    {
+      "character": "習",
+      "meaning": "learn",
+      "onyomi": "しゅう",
+      "kunyomi": "なら",
+      "important_reading": "onyomi",
+      "level": 10,
+      "nanori": null,
+      "user_specific": {
+        "unlocked_date": 1465047627,
+        "user_synonyms": null,
+        "meaning_note": null,
+        "reading_note": null,
+        "srs": "enlighten",
+        "srs_numeric": 8,
+        "available_date": 1502632800,
+        "burned": false,
+        "burned_date": 0,
+        "reactivated_date": 0,
+        "meaning_correct": 24,
+        "meaning_incorrect": 5,
+        "meaning_max_streak": 7,
+        "meaning_current_streak": 5,
+        "reading_correct": 24,
+        "reading_incorrect": 4,
+        "reading_max_streak": 9,
         "reading_current_streak": 5
       }
     },
@@ -208,7 +249,7 @@
       "character": "速",
       "meaning": "fast",
       "onyomi": "そく",
-      "kunyomi": "はや.い",
+      "kunyomi": "はや",
       "important_reading": "onyomi",
       "level": 10,
       "nanori": null,
@@ -298,7 +339,7 @@
       "character": "築",
       "meaning": "construct, build",
       "onyomi": "ちく",
-      "kunyomi": "きず.く",
+      "kunyomi": "きず",
       "important_reading": "onyomi",
       "level": 15,
       "nanori": null,
@@ -350,6 +391,35 @@
         "reading_incorrect": 0,
         "reading_max_streak": 11,
         "reading_current_streak": 11
+      }
+    },
+    {
+      "character": "余",
+      "meaning": "surplus, excess",
+      "onyomi": "よ",
+      "kunyomi": "あま",
+      "important_reading": "onyomi",
+      "level": 20,
+      "nanori": null,
+      "user_specific": {
+        "unlocked_date": 1480442862,
+        "user_synonyms": null,
+        "meaning_note": null,
+        "reading_note": null,
+        "srs": "guru",
+        "srs_numeric": 6,
+        "available_date": 1493839800,
+        "burned": false,
+        "burned_date": 0,
+        "reactivated_date": 0,
+        "meaning_correct": 17,
+        "meaning_incorrect": 4,
+        "meaning_max_streak": 7,
+        "meaning_current_streak": 5,
+        "reading_correct": 17,
+        "reading_incorrect": 2,
+        "reading_max_streak": 14,
+        "reading_current_streak": 3
       }
     },
     {
@@ -440,39 +510,10 @@
       }
     },
     {
-      "character": "習",
-      "meaning": "learn",
-      "onyomi": "しゅう",
-      "kunyomi": "なら.う",
-      "important_reading": "onyomi",
-      "level": 10,
-      "nanori": null,
-      "user_specific": {
-        "unlocked_date": 1465047627,
-        "user_synonyms": null,
-        "meaning_note": null,
-        "reading_note": null,
-        "srs": "enlighten",
-        "srs_numeric": 8,
-        "available_date": 1502632800,
-        "burned": false,
-        "burned_date": 0,
-        "reactivated_date": 0,
-        "meaning_correct": 24,
-        "meaning_incorrect": 5,
-        "meaning_max_streak": 7,
-        "meaning_current_streak": 5,
-        "reading_correct": 24,
-        "reading_incorrect": 4,
-        "reading_max_streak": 9,
-        "reading_current_streak": 5
-      }
-    },
-    {
       "character": "聞",
       "meaning": "hear",
       "onyomi": "ぶん, もん",
-      "kunyomi": "き.く",
+      "kunyomi": "き",
       "important_reading": "onyomi",
       "level": 10,
       "nanori": null,
@@ -530,7 +571,7 @@
       "character": "転",
       "meaning": "revolve",
       "onyomi": "てん",
-      "kunyomi": "ころ.ぶ",
+      "kunyomi": "ころ",
       "important_reading": "onyomi",
       "level": 10,
       "nanori": null,
@@ -614,6 +655,35 @@
       }
     },
     {
+      "character": "運",
+      "meaning": "carry, luck",
+      "onyomi": "うん",
+      "kunyomi": "はこ",
+      "important_reading": "onyomi",
+      "level": 10,
+      "nanori": null,
+      "user_specific": {
+        "unlocked_date": 1465047627,
+        "user_synonyms": null,
+        "meaning_note": null,
+        "reading_note": null,
+        "srs": "enlighten",
+        "srs_numeric": 8,
+        "available_date": 1496939400,
+        "burned": false,
+        "burned_date": 0,
+        "reactivated_date": 0,
+        "meaning_correct": 17,
+        "meaning_incorrect": 2,
+        "meaning_max_streak": 12,
+        "meaning_current_streak": 12,
+        "reading_correct": 17,
+        "reading_incorrect": 5,
+        "reading_max_streak": 10,
+        "reading_current_streak": 5
+      }
+    },
+    {
       "character": "秋",
       "meaning": "autumn, fall",
       "onyomi": "None",
@@ -640,6 +710,35 @@
         "reading_incorrect": 0,
         "reading_max_streak": 8,
         "reading_current_streak": 8
+      }
+    },
+    {
+      "character": "経",
+      "meaning": "passage of time, pass through, manage",
+      "onyomi": "けい",
+      "kunyomi": "た, へ",
+      "important_reading": "onyomi",
+      "level": 20,
+      "nanori": null,
+      "user_specific": {
+        "unlocked_date": 1480442862,
+        "user_synonyms": null,
+        "meaning_note": null,
+        "reading_note": null,
+        "srs": "enlighten",
+        "srs_numeric": 8,
+        "available_date": 1496147400,
+        "burned": false,
+        "burned_date": 0,
+        "reactivated_date": 0,
+        "meaning_correct": 7,
+        "meaning_incorrect": 0,
+        "meaning_max_streak": 7,
+        "meaning_current_streak": 7,
+        "reading_correct": 7,
+        "reading_incorrect": 0,
+        "reading_max_streak": 7,
+        "reading_current_streak": 7
       }
     },
     {
@@ -1033,19 +1132,19 @@
         "meaning_note": null,
         "reading_note": null,
         "srs": "guru",
-        "srs_numeric": 5,
-        "available_date": 1492711200,
+        "srs_numeric": 6,
+        "available_date": 1493920800,
         "burned": false,
         "burned_date": 0,
         "reactivated_date": 0,
-        "meaning_correct": 11,
+        "meaning_correct": 12,
         "meaning_incorrect": 1,
         "meaning_max_streak": 10,
-        "meaning_current_streak": 1,
-        "reading_correct": 11,
+        "meaning_current_streak": 2,
+        "reading_correct": 12,
         "reading_incorrect": 2,
         "reading_max_streak": 8,
-        "reading_current_streak": 3
+        "reading_current_streak": 4
       }
     },
     {
@@ -1139,7 +1238,7 @@
       "character": "災",
       "meaning": "disaster",
       "onyomi": "さい",
-      "kunyomi": "わざわ.い",
+      "kunyomi": "わざわ",
       "important_reading": "onyomi",
       "level": 20,
       "nanori": null,
@@ -1197,7 +1296,7 @@
       "character": "嫌",
       "meaning": "dislike",
       "onyomi": "けん",
-      "kunyomi": "いや, きら.い",
+      "kunyomi": "いや, きら",
       "important_reading": "onyomi",
       "level": 20,
       "nanori": null,
@@ -1284,7 +1383,7 @@
       "character": "倒",
       "meaning": "overthrow, collapse",
       "onyomi": "とう",
-      "kunyomi": "たお.す",
+      "kunyomi": "たお",
       "important_reading": "onyomi",
       "level": 20,
       "nanori": null,
@@ -1487,7 +1586,7 @@
       "character": "難",
       "meaning": "difficult",
       "onyomi": "なん",
-      "kunyomi": "むずか.しい",
+      "kunyomi": "むずか",
       "important_reading": "onyomi",
       "level": 20,
       "nanori": null,
@@ -1574,7 +1673,7 @@
       "character": "語",
       "meaning": "language",
       "onyomi": "ご",
-      "kunyomi": "かた.る",
+      "kunyomi": "かた",
       "important_reading": "onyomi",
       "level": 10,
       "nanori": null,
@@ -1598,6 +1697,16 @@
         "reading_max_streak": 8,
         "reading_current_streak": 8
       }
+    },
+    {
+      "character": "汁",
+      "meaning": "soup",
+      "onyomi": "じゅう",
+      "kunyomi": "しる",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
     },
     {
       "character": "厚",
@@ -1658,6 +1767,86 @@
       }
     },
     {
+      "character": "舎",
+      "meaning": "cottage",
+      "onyomi": "しゃ",
+      "kunyomi": "None",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "滞",
+      "meaning": "stagnate",
+      "onyomi": "たい",
+      "kunyomi": "とどこお",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "亀",
+      "meaning": "turtle",
+      "onyomi": "None",
+      "kunyomi": "かめ",
+      "important_reading": "kunyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "介",
+      "meaning": "jammed in",
+      "onyomi": "かい",
+      "kunyomi": null,
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": "すけ",
+      "user_specific": null
+    },
+    {
+      "character": "炎",
+      "meaning": "flame, big fire",
+      "onyomi": "えん",
+      "kunyomi": "ほのお",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "厄",
+      "meaning": "unlucky",
+      "onyomi": "やく",
+      "kunyomi": "None",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "講",
+      "meaning": "lecture",
+      "onyomi": "こう",
+      "kunyomi": "None",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "互",
+      "meaning": "mutual",
+      "onyomi": "ご",
+      "kunyomi": "たが",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
       "character": "頭",
       "meaning": "head",
       "onyomi": "ず, とう",
@@ -1685,6 +1874,56 @@
         "reading_max_streak": 10,
         "reading_current_streak": 10
       }
+    },
+    {
+      "character": "杉",
+      "meaning": "cedar",
+      "onyomi": "None",
+      "kunyomi": "すぎ",
+      "important_reading": "kunyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "醤",
+      "meaning": "soy sauce",
+      "onyomi": "しょう",
+      "kunyomi": "None",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "油",
+      "meaning": "oil",
+      "onyomi": "ゆ",
+      "kunyomi": "あぶら",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "恥",
+      "meaning": "shame",
+      "onyomi": "ち",
+      "kunyomi": "は, はじ",
+      "important_reading": "kunyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "彫",
+      "meaning": "carve",
+      "onyomi": "ちょう",
+      "kunyomi": "ほ",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
     },
     {
       "character": "算",
@@ -1748,7 +1987,7 @@
       "character": "配",
       "meaning": "distribute",
       "onyomi": "はい",
-      "kunyomi": "くば.る",
+      "kunyomi": "くば",
       "important_reading": "onyomi",
       "level": 10,
       "nanori": null,
@@ -1806,7 +2045,7 @@
       "character": "確",
       "meaning": "certain",
       "onyomi": "かく",
-      "kunyomi": "たし.か",
+      "kunyomi": "たし",
       "important_reading": "onyomi",
       "level": 20,
       "nanori": null,
@@ -1832,10 +2071,20 @@
       }
     },
     {
+      "character": "寿",
+      "meaning": "lifespan",
+      "onyomi": "じゅ, す",
+      "kunyomi": "ことぶき",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
       "character": "調",
       "meaning": "investigate, tone",
       "onyomi": "ちょう",
-      "kunyomi": "しら.べる",
+      "kunyomi": "しら",
       "important_reading": "onyomi",
       "level": 10,
       "nanori": null,
@@ -1893,7 +2142,7 @@
       "character": "防",
       "meaning": "prevent, prevention",
       "onyomi": "ぼう",
-      "kunyomi": "ふせ.ぐ",
+      "kunyomi": "ふせ",
       "important_reading": "onyomi",
       "level": 20,
       "nanori": null,
@@ -1922,7 +2171,7 @@
       "character": "犯",
       "meaning": "crime",
       "onyomi": "はん",
-      "kunyomi": "おか.す",
+      "kunyomi": "おか",
       "important_reading": "onyomi",
       "level": 20,
       "nanori": null,
@@ -1977,33 +2226,14 @@
       }
     },
     {
-      "character": "余",
-      "meaning": "surplus, excess",
-      "onyomi": "よ",
-      "kunyomi": "あま.る",
+      "character": "噌",
+      "meaning": "boisterous",
+      "onyomi": "そ",
+      "kunyomi": "None",
       "important_reading": "onyomi",
-      "level": 20,
+      "level": 35,
       "nanori": null,
-      "user_specific": {
-        "unlocked_date": 1480442862,
-        "user_synonyms": null,
-        "meaning_note": null,
-        "reading_note": null,
-        "srs": "guru",
-        "srs_numeric": 6,
-        "available_date": 1493839800,
-        "burned": false,
-        "burned_date": 0,
-        "reactivated_date": 0,
-        "meaning_correct": 17,
-        "meaning_incorrect": 4,
-        "meaning_max_streak": 7,
-        "meaning_current_streak": 5,
-        "reading_correct": 17,
-        "reading_incorrect": 2,
-        "reading_max_streak": 14,
-        "reading_current_streak": 3
-      }
+      "user_specific": null
     },
     {
       "character": "臭",
@@ -2062,6 +2292,16 @@
         "reading_max_streak": 9,
         "reading_current_streak": 9
       }
+    },
+    {
+      "character": "為",
+      "meaning": "sake",
+      "onyomi": "い",
+      "kunyomi": "ため, な, す",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
     },
     {
       "character": "紀",
@@ -2154,7 +2394,7 @@
       "character": "終",
       "meaning": "end, finish",
       "onyomi": "しゅう",
-      "kunyomi": "おわ.り, お",
+      "kunyomi": "おわ, お",
       "important_reading": "onyomi",
       "level": 10,
       "nanori": null,
@@ -2178,6 +2418,36 @@
         "reading_max_streak": 9,
         "reading_current_streak": 8
       }
+    },
+    {
+      "character": "遅",
+      "meaning": "slow",
+      "onyomi": "ち",
+      "kunyomi": "おそ, おく",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "己",
+      "meaning": "oneself",
+      "onyomi": "こ, き",
+      "kunyomi": "おのれ",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "獄",
+      "meaning": "prison",
+      "onyomi": "ごく",
+      "kunyomi": "None",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
     },
     {
       "character": "春",
@@ -2270,7 +2540,7 @@
       "character": "計",
       "meaning": "measure, measurement",
       "onyomi": "けい",
-      "kunyomi": "はか.る",
+      "kunyomi": "はか",
       "important_reading": "onyomi",
       "level": 15,
       "nanori": null,
@@ -2299,7 +2569,7 @@
       "character": "落",
       "meaning": "fall",
       "onyomi": "らく",
-      "kunyomi": "お.ちる, お.とす",
+      "kunyomi": "お",
       "important_reading": "onyomi",
       "level": 10,
       "nanori": null,
@@ -2357,7 +2627,7 @@
       "character": "震",
       "meaning": "earthquake, quake, shake",
       "onyomi": "しん",
-      "kunyomi": "ふる.える",
+      "kunyomi": "ふる",
       "important_reading": "onyomi",
       "level": 20,
       "nanori": null,
@@ -2386,7 +2656,7 @@
       "character": "産",
       "meaning": "give birth, birth",
       "onyomi": "さん",
-      "kunyomi": "う.む",
+      "kunyomi": "う",
       "important_reading": "onyomi",
       "level": 20,
       "nanori": null,
@@ -2441,6 +2711,16 @@
       }
     },
     {
+      "character": "酢",
+      "meaning": "vinegar",
+      "onyomi": "None",
+      "kunyomi": "す",
+      "important_reading": "kunyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
       "character": "区",
       "meaning": "district, ward",
       "onyomi": "く",
@@ -2470,10 +2750,20 @@
       }
     },
     {
+      "character": "測",
+      "meaning": "measure",
+      "onyomi": "そく",
+      "kunyomi": "はか",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
       "character": "率",
       "meaning": "percent, percentage",
       "onyomi": "りつ, そつ",
-      "kunyomi": "ひき.いる",
+      "kunyomi": "ひき",
       "important_reading": "onyomi",
       "level": 20,
       "nanori": null,
@@ -2511,20 +2801,20 @@
         "user_synonyms": null,
         "meaning_note": null,
         "reading_note": null,
-        "srs": "guru",
-        "srs_numeric": 6,
-        "available_date": 1492705800,
+        "srs": "master",
+        "srs_numeric": 7,
+        "available_date": 1495303200,
         "burned": false,
         "burned_date": 0,
         "reactivated_date": 0,
-        "meaning_correct": 34,
+        "meaning_correct": 35,
         "meaning_incorrect": 11,
         "meaning_max_streak": 6,
-        "meaning_current_streak": 3,
-        "reading_correct": 34,
+        "meaning_current_streak": 4,
+        "reading_correct": 35,
         "reading_incorrect": 3,
-        "reading_max_streak": 17,
-        "reading_current_streak": 17
+        "reading_max_streak": 18,
+        "reading_current_streak": 18
       }
     },
     {
@@ -2560,7 +2850,7 @@
       "character": "司",
       "meaning": "director",
       "onyomi": "し",
-      "kunyomi": "つかさど.る",
+      "kunyomi": "つかさど",
       "important_reading": "onyomi",
       "level": 15,
       "nanori": null,
@@ -2615,64 +2905,6 @@
       }
     },
     {
-      "character": "運",
-      "meaning": "carry, luck",
-      "onyomi": "うん",
-      "kunyomi": "はこ.ぶ",
-      "important_reading": "onyomi",
-      "level": 10,
-      "nanori": null,
-      "user_specific": {
-        "unlocked_date": 1465047627,
-        "user_synonyms": null,
-        "meaning_note": null,
-        "reading_note": null,
-        "srs": "enlighten",
-        "srs_numeric": 8,
-        "available_date": 1496939400,
-        "burned": false,
-        "burned_date": 0,
-        "reactivated_date": 0,
-        "meaning_correct": 17,
-        "meaning_incorrect": 2,
-        "meaning_max_streak": 12,
-        "meaning_current_streak": 12,
-        "reading_correct": 17,
-        "reading_incorrect": 5,
-        "reading_max_streak": 10,
-        "reading_current_streak": 5
-      }
-    },
-    {
-      "character": "経",
-      "meaning": "passage of time, pass through, manage",
-      "onyomi": "けい",
-      "kunyomi": "た.つ, へ.る",
-      "important_reading": "onyomi",
-      "level": 20,
-      "nanori": null,
-      "user_specific": {
-        "unlocked_date": 1480442862,
-        "user_synonyms": null,
-        "meaning_note": null,
-        "reading_note": null,
-        "srs": "enlighten",
-        "srs_numeric": 8,
-        "available_date": 1496147400,
-        "burned": false,
-        "burned_date": 0,
-        "reactivated_date": 0,
-        "meaning_correct": 7,
-        "meaning_incorrect": 0,
-        "meaning_max_streak": 7,
-        "meaning_current_streak": 7,
-        "reading_correct": 7,
-        "reading_incorrect": 0,
-        "reading_max_streak": 7,
-        "reading_current_streak": 7
-      }
-    },
-    {
       "character": "軽",
       "meaning": "lightweight, light, light weight",
       "onyomi": "けい",
@@ -2700,6 +2932,26 @@
         "reading_max_streak": 9,
         "reading_current_streak": 3
       }
+    },
+    {
+      "character": "酔",
+      "meaning": "drunk",
+      "onyomi": "すい",
+      "kunyomi": "よ",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "熊",
+      "meaning": "bear",
+      "onyomi": "None",
+      "kunyomi": "くま",
+      "important_reading": "kunyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
     },
     {
       "character": "丈",
@@ -2731,10 +2983,30 @@
       }
     },
     {
+      "character": "払",
+      "meaning": "pay",
+      "onyomi": "None",
+      "kunyomi": "はら",
+      "important_reading": "kunyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "紹",
+      "meaning": "introduce",
+      "onyomi": "しょう",
+      "kunyomi": "None",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
       "character": "進",
       "meaning": "advance",
       "onyomi": "しん",
-      "kunyomi": "すす.む",
+      "kunyomi": "すす",
       "important_reading": "onyomi",
       "level": 10,
       "nanori": null,
@@ -2760,10 +3032,50 @@
       }
     },
     {
+      "character": "剣",
+      "meaning": "sword",
+      "onyomi": "けん",
+      "kunyomi": "つるぎ",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "銅",
+      "meaning": "copper",
+      "onyomi": "どう",
+      "kunyomi": "あかがね",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "鍋",
+      "meaning": "pot",
+      "onyomi": "None",
+      "kunyomi": "なべ",
+      "important_reading": "kunyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "湖",
+      "meaning": "lake",
+      "onyomi": "こ",
+      "kunyomi": "みずうみ",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
       "character": "被",
       "meaning": "incur",
       "onyomi": "ひ",
-      "kunyomi": "かぶ.る",
+      "kunyomi": "かぶ",
       "important_reading": "onyomi",
       "level": 20,
       "nanori": null,
@@ -2789,10 +3101,30 @@
       }
     },
     {
+      "character": "彼",
+      "meaning": "he",
+      "onyomi": "ひ",
+      "kunyomi": "かれ, かの",
+      "important_reading": "kunyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
+      "character": "破",
+      "meaning": "tear",
+      "onyomi": "は",
+      "kunyomi": "やぶ",
+      "important_reading": "onyomi",
+      "level": 35,
+      "nanori": null,
+      "user_specific": null
+    },
+    {
       "character": "妨",
       "meaning": "obstruct, impede",
       "onyomi": "ぼう",
-      "kunyomi": "さまた.げる",
+      "kunyomi": "さまた",
       "important_reading": "onyomi",
       "level": 20,
       "nanori": null,
@@ -2850,7 +3182,7 @@
       "character": "親",
       "meaning": "parent",
       "onyomi": "しん",
-      "kunyomi": "おや, した.しい",
+      "kunyomi": "おや, した",
       "important_reading": "onyomi",
       "level": 10,
       "nanori": null,
@@ -2879,7 +3211,7 @@
       "character": "開",
       "meaning": "open, opened",
       "onyomi": "かい",
-      "kunyomi": "あ.ける, ひら",
+      "kunyomi": "あ, ひら",
       "important_reading": "onyomi",
       "level": 10,
       "nanori": null,
