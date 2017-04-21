@@ -18,7 +18,7 @@ module Saru
     end
 
     def valid?
-      api_key.present?
+      !api_key.nil? && api_key != ''
     end
 
   end
