@@ -11,10 +11,10 @@ describe Saru::Connection::Radical do
   let(:connector) { double 'connector' }
 
   before do
-    allow(Saru::Setup).to receive(:api_key).
+    allow(Saru).to receive(:api_key).
       and_return api_key
 
-    allow(Saru::Setup).to receive(:valid?).
+    allow(Saru).to receive(:valid?).
       and_return !api_key.nil?
 
     allow(subject).to receive(:connection).

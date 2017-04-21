@@ -1,9 +1,12 @@
+require 'faraday'
+require 'json'
+
 module Saru
   module Connection
     class Base
 
       ENDPOINT_HOST = "https://www.wanikani.com"
-      ENDPOINT_BASE = "/api"
+      ENDPOINT_BASE = "/api/user"
 
       WanikaniConnectionError = Class.new(StandardError)
 
@@ -20,7 +23,7 @@ module Saru
     private
 
       def response
-        raise ArgumentError, 'Missing API key' unless Saru::Setup.valid?
+        raise ArgumentError, 'Missing API key' unless Saru.valid?
         @response ||= connection.get path
       end
 
@@ -36,7 +39,7 @@ module Saru
       end
 
       def base_path
-        "#{ENDPOINT_BASE}/#{Saru::Setup.api_key}"
+        "#{ENDPOINT_BASE}/#{Saru.api_key}"
       end
 
       def levels_request
