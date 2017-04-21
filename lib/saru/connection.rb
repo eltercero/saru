@@ -5,6 +5,7 @@ require 'saru/connection/vocabulary'
 
 module Saru
   module Connection
+    extend self
 
     def radical levels=nil
       Radical.new(levels).call

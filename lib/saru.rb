@@ -5,6 +5,7 @@ require "saru/setup"
 require "saru/version"
 
 module Saru
+  extend self
   extend Setup
 
   def radicals levels=nil
