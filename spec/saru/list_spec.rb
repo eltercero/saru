@@ -43,14 +43,6 @@ describe Saru::List do
 
       expect(before_2017.size + in_2017.size).to eq 100
 
-      # Level
-      expect(subject.in_levels(9).size).to eq 0
-      expect(subject.in_levels([10]).size).to eq 35
-      expect(subject.level_smaller_than(12).size).to eq 35
-      expect(subject.in_level(15).size).to eq 33
-      expect(subject.in_level(20).size).to eq 32
-      expect(subject.level_larger_than(12).size).to eq 65
-
       # Incorrect
       expect(subject.meaning_incorrect_smaller_than(20).size).to eq 100
       expect(subject.meaning_incorrect_larger_than(5).size).to eq 4
