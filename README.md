@@ -163,7 +163,7 @@ I could really use a hand adding more modules for Saru::List so it could be more
 
 1. Fork it ( http://github.com/eltercero/saru/fork )
 2. Create your feature branch (`git checkout -b missing_features`)
-3. Commit your changes (`git commit -am 'いいといいですね！'`)
+3. Commit your changes (`git commit -am 'いいといいですね！'`). Don't forget to add a spec!
 4. Push to the branch (`git push origin missing_features`)
 5. Create new Pull Request
 
